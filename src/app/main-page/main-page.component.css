@@ -1,0 +1,5 @@
+.main-page {
+  position: absolute;
+  margin-left: 250px; /* Учитывая ширину сайдбара */
+  width: 100%;
+}

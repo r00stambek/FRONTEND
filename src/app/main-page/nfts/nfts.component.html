@@ -1,0 +1,58 @@
+<div class="nfts">
+  <h1>NFT's</h1>
+  <div class="search-input-container">
+    <input type="text" placeholder="Search" class="search">
+    <div class="search-icon">
+      <img src="../../../assets/glass.png" alt="">
+    </div>
+  </div>
+  <div class="cards">
+  <div class="card" *ngFor="let nft of nftArray">
+    <div class="user">
+      <div class="user-info">
+        <img class="avatar" [src]="nft.avatar" alt="avatar">
+        <span class="username"> {{ nft.username }} </span>
+      </div>
+      <div class="action">
+        <img class="likes-icon" src="assets/like.png" alt="">
+        <span class="likes">{{ nft.likes }}</span>
+        <a href="#" class="comments">
+          <img [src]="svgPath" alt="SVG Image" class="svg-comm">
+        </a>
+      </div>
+    </div>
+    <img class="nft-image" [src]="nft.image" alt="NFT Image">
+    <div class="details">
+      <h3 class="title"> {{ nft.title }} </h3>
+      <p class="description">{{ nft.description }} </p>
+      <div class="category">
+        <span class="category-text">Category</span>
+        <span class="nft-categoty">{{ nft.category }}</span>
+      </div>
+      <div class="price">
+        <span>{{ nft.price }}</span>
+      </div>
+      <button class="buy-button"><span class="buy">Buy</span></button>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<!--    <img class="nft-image" [src]="nft.image" alt="NFT Image">-->
+<!--    <div class="details">-->
+<!--      <h3 class="title">{{ nft.title }}</h3>-->
+<!--      <p class="description">{{ nft.description }}</p>-->
+<!--      <div class="category">-->
+<!--        <span>Category:</span>-->
+<!--        <span>{{ nft.category }}</span>-->
+<!--      </div>-->
+<!--      <div class="price">-->
+<!--        <span>Price:</span>-->
+<!--        <span>{{ nft.price }}</span>-->
+<!--      </div>-->
+<!--      <button class="buy-button">Buy</button>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+

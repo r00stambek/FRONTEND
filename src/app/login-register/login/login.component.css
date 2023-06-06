@@ -1,0 +1,128 @@
+/*------------LOGIN------------*/
+
+.rect {
+  position: relative;
+  width: 406px;
+  height: 302px;
+  background: #121520;
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+}
+.logtext {
+  /* Login */
+
+  position: absolute;
+  width: 83px;
+  height: 45px;
+  top: 13px;
+  left: 40px;
+
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  /* identical to box height, or 45px */
+
+  letter-spacing: -0.005em;
+
+  color: #ffffff;
+}
+
+input::placeholder {
+  text-indent: 10px;
+}
+
+.input1,
+.input2 {
+  position: absolute;
+  width: 41px;
+  height: 24px;
+
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.005em;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.input1 {
+  position: absolute;
+  width: 326px;
+  height: 48px;
+  left: 40px;
+  top: 70px;
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.input2 {
+  position: absolute;
+  width: 326px;
+  height: 48px;
+  left: 40px;
+  top: 134px;
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.reg {
+  /* Register */
+
+  position: relative;
+  width: 56px;
+  height: 21px;
+  left: 312px;
+  top: 183px;
+
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  letter-spacing: 0.005em;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.subm {
+  position: absolute;
+  width: 240px;
+  height: 32px;
+
+  background: #39ce9a;
+  border-radius: 10px;
+
+  left: 85px;
+  top: 230px;
+
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  color: #ffffff;
+}

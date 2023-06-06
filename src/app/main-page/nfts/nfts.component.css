@@ -1,0 +1,322 @@
+h1 {
+  position: relative;
+  width: 167px;
+  height: 90px;
+  left: 28px;
+
+  margin: 0px;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  /* identical to box height, or 90px */
+
+  letter-spacing: -0.005em;
+
+  color: #FFFFFF;
+}
+
+.nfts {
+  width: 1520px;
+}
+
+.search-input-container {
+  position: relative;
+  width: 217px;
+  height: 48px;
+  top: 16px;
+  left: 28px;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+  background: #090B0D;
+  border-radius: 10px;
+  border: 0px;
+  opacity: 0.3;
+  box-sizing: border-box;
+
+  padding-left: 48px;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.005em;
+
+  color: #FFFFFF;
+
+}
+
+.search::placeholder {
+  position: relative;
+  width: 54px;
+  height: 24px;
+
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.005em;
+
+  color: #FFFFFF;
+
+  opacity: 1;
+}
+
+h1 {
+  position: relative;
+  width: 167px;
+  height: 90px;
+  left: 28px;
+
+  margin: 0px;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  /* identical to box height, or 90px */
+
+  letter-spacing: -0.005em;
+
+  color: #FFFFFF;
+}
+
+.search-input-container {
+  position: relative;
+  width: 217px;
+  height: 48px;
+  top: 16px;
+  left: 28px;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+  background: #090B0D;
+  border-radius: 10px;
+  border: 0px;
+  opacity: 0.3;
+  box-sizing: border-box;
+
+  padding-left: 48px;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.005em;
+
+  color: #FFFFFF;
+
+}
+
+.search::placeholder {
+  position: relative;
+  width: 54px;
+  height: 24px;
+
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.005em;
+
+  color: #FFFFFF;
+
+  opacity: 1;
+}
+
+/* Стили для иконки лупы */
+.search-icon {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  z-index: 2;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  top: 58px;
+  left: 28px;
+}
+
+.card {
+  position: relative;
+  width: 280px;
+  height: 601px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.user {
+  position: relative;
+  width: 270px;
+  height: 32px;
+  display: flex;
+}
+
+.user-info {
+  width: 120px;
+}
+
+.username {
+  height: 21px;
+  position: relative;
+  bottom: 10px;
+  left: 12px;
+  color: #39CE9A;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.avatar {
+  height: 32px;
+  position: relative;
+}
+
+.action {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 80px;
+}
+
+.likes-icon {
+  position: relative;
+  right: 8px;
+}
+
+.likes {
+  position: relative;
+
+  bottom: 1px;
+
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #39CE9A;
+}
+
+
+.comments {
+  top: 2px;
+  position: absolute;
+  height: 16px;
+  right: 0;
+}
+
+.nft-image {
+  position: relative;
+  top: 10px;
+}
+
+.details {
+  position: absolute;
+  width: 280px;
+  height: 249px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 12px;
+  padding-bottom: 20px;
+
+  box-sizing: border-box;
+  background-color: rgba(9, 11, 13, 0.3);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.title {
+  margin: 0;
+
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.005em;
+  font-weight: 500;
+}
+
+.description {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 18px;
+
+  color: #39CE9A;
+}
+
+.category {
+  position: relative;
+  top: 9px;
+}
+
+.category-text {
+  position: relative;
+
+  font-weight: 300;
+  font-size: 14px;
+
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.nft-categoty {
+  position: relative;
+  left: 44px;
+
+  font-weight: 300;
+  font-size: 14px;
+
+  color: #39CE9A;
+}
+
+.price {
+  position: relative;
+  top: 46px;
+
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  width: 60px;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.buy-button {
+  position: absolute;
+
+  box-sizing: border-box;
+  bottom: 20px;
+
+  width: 240px;
+  height: 32px;
+
+  background-color: rgba(9, 11, 13, 0);
+  border: 1px solid rgba(57, 206, 154, 0.1);
+  border-radius: 10px;
+}
+.buy {
+  font-family: Jura;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+
+  opacity: 0.8;
+}
+

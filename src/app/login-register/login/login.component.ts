@@ -16,4 +16,12 @@ export class LoginComponent {
     this.router.navigateByUrl('/login-register/register');
   }
 
+  username: string = '';
+  password: string = '';
+
+  onLogin() {
+    console.log('Username:', this.username);
+    console.log('Password', this.password);
+  }
 }
+

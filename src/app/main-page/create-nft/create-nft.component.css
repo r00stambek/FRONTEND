@@ -132,17 +132,66 @@ h3 {
   align-items: center;
   padding: 12px 10px;
   gap: 20px;
+  box-sizing: border-box;
 
   position: relative;
   width: 561px;
-  height: 34px;
+  height: 48px;
   margin-top: 10px;
 
   background: rgba(9, 11, 13, 0.3);
   border-radius: 10px;
+  border: 0;
 
   font-weight: 300;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
 
+}
+
+.select-category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 10px 12px 10px;
+  gap: 20px;
+  box-sizing: border-box;
+
+  position: relative;
+  width: 561px;
+  height: 48px;
+  margin-top: 10px;
+  background: rgba(9, 11, 13, 0.3);
+  border-radius: 10px;
+  border: 0;
+
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+
+}
+
+.option-category {
+  background: rgba(9, 11, 13, 0.3);
+  padding: 0;
+}
+select {
+  padding: 0; /* Убирает внутренний отступ */
+  margin: 0; /* Убирает внешний отступ */
+}
+
+.item-type {
+  margin-top: 24px;
+  position: relative;
+}
+
+.item-price {
+  margin-top: 39px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
 }

@@ -31,13 +31,12 @@
   color: #ffffff;
 }
 
-input::placeholder {
-  text-indent: 10px;
-}
+
 
 .input1,
 .input2 {
-  position: absolute;
+  padding-left: 10px;
+  position: relative;
   width: 41px;
   height: 24px;
 
